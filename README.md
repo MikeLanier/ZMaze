@@ -5,11 +5,12 @@ Application to study and creation and solution of mazes, ported from the JMaze a
 
 # Implementation Diary
 
-### 10/12/2017
-* Split the layout into a controls panel and display panel
+### 10/13/2017
 * Add controls to the control panel (see JMaze)
 * Create data binding for the controls
 * Create classes for the walls
 * Create classes for the cells
 * create the cells and walls for the grid. Save in dictionary
-* 
+
+### 10/12/2017
+* ~~Split the layout into a controls panel and display panel~~
