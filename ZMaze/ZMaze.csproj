@@ -55,7 +55,59 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="ControlPanel\CellSize.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ControlPanel\ControlPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ControlPanel\CreateMaze.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ControlPanel\CreateRoom.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ControlPanel\Display.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ControlPanel\Entrance.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ControlPanel\Exit.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ControlPanel\LoadMazes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ControlPanel\Mazes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ControlPanel\PrintMaze.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ControlPanel\SolveMaze.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ControlPanel\StartCell.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ControlPanel\MazeSize.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ControlPanel\SaveMazes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -71,8 +123,47 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ControlPanel\CellSize.xaml.cs">
+      <DependentUpon>CellSize.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ControlPanel\ControlPanel.xaml.cs">
       <DependentUpon>ControlPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\CreateMaze.xaml.cs">
+      <DependentUpon>CreateMaze.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\CreateRoom.xaml.cs">
+      <DependentUpon>CreateRoom.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Display.xaml.cs">
+      <DependentUpon>Display.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Entrance.xaml.cs">
+      <DependentUpon>Entrance.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Exit.xaml.cs">
+      <DependentUpon>Exit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\LoadMazes.xaml.cs">
+      <DependentUpon>LoadMazes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Mazes.xaml.cs">
+      <DependentUpon>Mazes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\PrintMaze.xaml.cs">
+      <DependentUpon>PrintMaze.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\SolveMaze.xaml.cs">
+      <DependentUpon>SolveMaze.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\StartCell.xaml.cs">
+      <DependentUpon>StartCell.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\MazeSize.xaml.cs">
+      <DependentUpon>MazeSize.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\SaveMazes.xaml.cs">
+      <DependentUpon>SaveMazes.xaml</DependentUpon>
     </Compile>
     <Compile Include="DisplayPanel\DisplayPanel.xaml.cs">
       <DependentUpon>DisplayPanel.xaml</DependentUpon>

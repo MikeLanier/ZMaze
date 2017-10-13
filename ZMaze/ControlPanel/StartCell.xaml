@@ -1,23 +1,15 @@
-﻿<UserControl x:Class="ZMaze.ControlPanel.ControlPanel"
+﻿<UserControl x:Class="ZMaze.ControlPanel.StartCell"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ZMaze.ControlPanel"
              mc:Ignorable="d">
-    <StackPanel Orientation="Vertical" Background="White">
-		<local:LoadMazes/>
-		<local:SaveMazes/>
-		<local:Mazes/>
-		<local:MazeSize/>
-		<local:StartCell/>
-		<local:Entrance/>
-		<local:Exit/>
-		<local:CreateMaze/>
-		<local:SolveMaze/>
-		<local:PrintMaze/>
-		<local:CellSize/>
-		<local:Display/>
-		<local:CreateRoom/>
+    <StackPanel Orientation="Horizontal">
+		<TextBlock Text="Start Cell" Width="70" Height="30"/>
+		<TextBox Text="512" Width="60" Height="30"/>
+		<TextBlock Text="x" Width="30" Height="30"/>
+		<TextBox Text="512" Width="60" Height="30"/>
+		<Button Content="?" Width="30" Height="30"/>
 	</StackPanel>
 </UserControl>
