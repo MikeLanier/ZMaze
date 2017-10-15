@@ -6,8 +6,8 @@ Application to study and creation and solution of mazes, ported from the JMaze a
 # Implementation Diary
 
 ### 10/13/2017
+* ~~Convert from WPF to WinRT.  WPF doesn't seem to have simple primitive drawing functionality. Might want to revisit when I look at DirectX ~~
 * Add controls to the control panel (see JMaze)
-  * ~~create raw controls~~
   * clean up control display, 
     * add margins and paddings
     * parameterize the control sizes
@@ -21,6 +21,10 @@ Application to study and creation and solution of mazes, ported from the JMaze a
   * create the maze
   * animate create the maze
 * Create data binding for and implement the controls
+
+### 10/13/2017
+* ~~Add controls to the control panel (see JMaze)~~
+  * ~~create raw controls~~
 
 ### 10/12/2017
 * ~~Split the layout into a controls panel and display panel~~

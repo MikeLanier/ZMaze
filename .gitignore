@@ -2,5 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/ZMaze/bin/Debug
-/ZMaze/obj/Debug
+/ZMaze/obj
+/ZMaze/bin/x86/Debug/AppX
+/ZMaze/bin/x86/Debug

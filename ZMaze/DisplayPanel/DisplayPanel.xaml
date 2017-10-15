@@ -3,10 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:ZMaze.DisplayPanel"
-             xmlns:maze="clr-namespace:ZMaze.Maze"
+             xmlns:local="using:ZMaze.DisplayPanel"
+             xmlns:maze="using:ZMaze.Maze"
              mc:Ignorable="d">
     <Grid Background="Blue">
-		<maze:Panel/>
+		<!--<maze:Panel/>-->
 	</Grid>
 </UserControl>

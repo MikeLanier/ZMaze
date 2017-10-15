@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="ZMaze.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ZMaze"
+    xmlns:cp="using:ZMaze.ControlPanel"
+    xmlns:dp="using:ZMaze.DisplayPanel"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="300"/>
+			<ColumnDefinition Width="*"/>
+		</Grid.ColumnDefinitions>
+
+		<cp:ControlPanel Grid.Column="0"></cp:ControlPanel>
+		<dp:DisplayPanel Grid.Column="1"></dp:DisplayPanel>
+	</Grid>
+</Page>
