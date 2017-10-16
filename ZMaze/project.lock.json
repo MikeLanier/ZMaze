@@ -1,5 +1,4 @@
 {
-  "locked": false,
   "version": 2,
   "targets": {
     "UAP,Version=v10.0": {
@@ -276,6 +275,18 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "SharpDX/4.1.0-ci184": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.4.0"
+        },
+        "compile": {
+          "lib/uap10.0/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SharpDX.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -2156,6 +2167,18 @@
           "runtimes/win8-arm/native/mscorrc.dll": {}
         }
       },
+      "SharpDX/4.1.0-ci184": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.4.0"
+        },
+        "compile": {
+          "lib/uap10.0/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SharpDX.dll": {}
+        }
+      },
       "System.AppContext/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -3875,6 +3898,18 @@
         },
         "runtime": {
           "runtimes/win8-aot/lib/netcore50/System.Private.DataContractSerialization.dll": {}
+        }
+      },
+      "SharpDX/4.1.0-ci184": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.4.0"
+        },
+        "compile": {
+          "lib/uap10.0/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SharpDX.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -5608,6 +5643,18 @@
           "runtimes/win7-x64/native/mscorrc.dll": {}
         }
       },
+      "SharpDX/4.1.0-ci184": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.4.0"
+        },
+        "compile": {
+          "lib/uap10.0/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SharpDX.dll": {}
+        }
+      },
       "System.AppContext/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -7327,6 +7374,18 @@
         },
         "runtime": {
           "runtimes/win8-aot/lib/netcore50/System.Private.DataContractSerialization.dll": {}
+        }
+      },
+      "SharpDX/4.1.0-ci184": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.4.0"
+        },
+        "compile": {
+          "lib/uap10.0/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SharpDX.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -9060,6 +9119,18 @@
           "runtimes/win7-x86/native/mscorrc.dll": {}
         }
       },
+      "SharpDX/4.1.0-ci184": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.4.0"
+        },
+        "compile": {
+          "lib/uap10.0/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SharpDX.dll": {}
+        }
+      },
       "System.AppContext/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -10779,6 +10850,18 @@
         },
         "runtime": {
           "runtimes/win8-aot/lib/netcore50/System.Private.DataContractSerialization.dll": {}
+        }
+      },
+      "SharpDX/4.1.0-ci184": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.4.0"
+        },
+        "compile": {
+          "lib/uap10.0/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SharpDX.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -12893,6 +12976,23 @@
         "runtimes/win8-arm/native/mscordbi.dll",
         "runtimes/win8-arm/native/mscorrc.debug.dll",
         "runtimes/win8-arm/native/mscorrc.dll"
+      ]
+    },
+    "SharpDX/4.1.0-ci184": {
+      "sha512": "6LlpoSJpgh44cbgceM/Ejs+oTKgj31AFlNE9nryrHHCZWjtBPOGy+NZglny7DVbRaXmkBtU1NrXeeZaEWEEooA==",
+      "type": "package",
+      "files": [
+        "lib/net40/SharpDX.dll",
+        "lib/net40/SharpDX.xml",
+        "lib/net45/SharpDX.dll",
+        "lib/net45/SharpDX.xml",
+        "lib/netstandard1.1/SharpDX.dll",
+        "lib/netstandard1.1/SharpDX.xml",
+        "lib/uap10.0/SharpDX.dll",
+        "lib/uap10.0/SharpDX.pri",
+        "lib/uap10.0/SharpDX.xml",
+        "sharpdx.4.1.0-ci184.nupkg.sha512",
+        "sharpdx.nuspec"
       ]
     },
     "System.AppContext/4.0.0": {
@@ -15497,8 +15597,14 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.1.0"
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.1.0",
+      "SharpDX >= 4.1.0-ci184"
     ],
     "UAP,Version=v10.0": []
+  },
+  "tools": {},
+  "projectFileToolGroups": {},
+  "packageFolders": {
+    "C:\\Users\\MikeL\\.nuget\\packages\\": {}
   }
 }

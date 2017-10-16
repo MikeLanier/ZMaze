@@ -4,10 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
 using System.Windows.Input;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Shapes;
-using Windows.UI.Xaml.Media;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
 
 namespace ZMaze.DisplayPanel
 {
@@ -19,18 +23,6 @@ namespace ZMaze.DisplayPanel
 		public DisplayPanel()
 		{
 			InitializeComponent();
-
-			//Line line2 = new Line();
-			//line2.X1 = 100;
-			//line2.Y1 = 100;
-			//line2.X2 = 400;
-			//line2.Y2 = 500;
-
-			//line2.Stroke = new SolidColorBrush(Windows.UI.Colors.Red);
-
-			//StackPanel a = new StackPanel();
-
-			//displayPanelCanvas.Children.Add(line2);
 		}
 	}
 }
